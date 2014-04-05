@@ -1,0 +1,8 @@
+[
+    { "keys": ["enter"], "command": "pydoxy", "context" :
+        [
+            { "key": "setting.auto_indent", "operator": "equal",          "operand": true },
+            { "key": "preceding_text",      "operator": "regex_contains", "operand": "^\\s*#{2}$", "match_all": true }
+        ]
+    },
+]
